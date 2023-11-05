@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import CartModal from "./CartModal";
+import Logo from "../assets/logo.png";
 
 const Header = ({ cart, onUpdateCartItemQuantity }) => {
   const modal = useRef();
@@ -10,6 +11,15 @@ const Header = ({ cart, onUpdateCartItemQuantity }) => {
   };
 
   let modalAction = <button>Close</button>;
+
+  if (cartQuantity > 0) {
+    modalAction = (
+      <>
+        <button>Close</button>
+        <button>Checkout</button>
+      </>
+    );
+  }
 
   return (
     <>
@@ -22,7 +32,7 @@ const Header = ({ cart, onUpdateCartItemQuantity }) => {
       />
       <header id="main-header">
         <div id="main-title">
-          <img src="logo.png" alt="Elegant model" />
+          <img src={Logo} alt="Elegant model" />
           <h1>Elegant Context</h1>
         </div>
         <p>
