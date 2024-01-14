@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.dce478eb.css",
+    "main.js": "/shopping-cart/static/js/main.affe961a.js",
+    "static/media/logo.png": "/shopping-cart/static/media/logo.29d7c2141a18f6d4ff0f.png",
+    "static/media/denim-pioneer.jpg": "/shopping-cart/static/media/denim-pioneer.e445397093aa72227316.jpg",
+    "static/media/rain-jacket.jpg": "/shopping-cart/static/media/rain-jacket.35a472e782886a98a576.jpg",
+    "static/media/dream-gown.jpg": "/shopping-cart/static/media/dream-gown.3b7de5866ea9f4f81bf6.jpg",
+    "static/media/mocha-overcoat.jpg": "/shopping-cart/static/media/mocha-overcoat.4c76e554aac60c086bad.jpg",
+    "static/media/merlot-suit.jpg": "/shopping-cart/static/media/merlot-suit.d6fa90da75b08274d65d.jpg",
+    "static/media/moonlight-dress.jpg": "/shopping-cart/static/media/moonlight-dress.dabc8ca96931f295d884.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.dce478eb.css.map": "/shopping-cart/static/css/main.dce478eb.css.map",
+    "main.affe961a.js.map": "/shopping-cart/static/js/main.affe961a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dce478eb.css",
+    "static/js/main.affe961a.js"
+  ]
+}
